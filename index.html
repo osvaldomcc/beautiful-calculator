@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Frontend Mentor | Calculator app</title>
+  </head>
+  <body data-theme="theme1">
+    <div class="container">
+      <div class="calc">
+        <div class="calc__theme">
+          <h1>calc</h1>
+          <div class="calc__form">
+            <span>THEME</span>
+            <form role="form">
+              <div class="labels">
+                <span for="one">1</span>
+                <span for="two">2</span>
+                <span for="three">3</span>
+              </div>
+              <div class="inputs">
+                <div class="calc__form--actions">
+                  <label for="one"></label>
+                  <label for="two"></label>
+                  <label for="three"></label>
+                </div>
+                <input type="radio" id="one" name="theme" value="one" />
+                <input type="radio" id="two" name="theme" value="two" />
+                <input type="radio" id="three" name="theme" value="three" />
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="calc__result">
+          <h2>399,981</h2>
+        </div>
+        <div class="calc__content">
+          <div class="calc__button">7</div>
+          <div class="calc__button">8</div>
+          <div class="calc__button">9</div>
+          <div class="calc__button del">DEL</div>
+          <div class="calc__button">4</div>
+          <div class="calc__button">5</div>
+          <div class="calc__button">6</div>
+          <div class="calc__button">+</div>
+          <div class="calc__button">1</div>
+          <div class="calc__button">2</div>
+          <div class="calc__button">3</div>
+          <div class="calc__button">-</div>
+          <div class="calc__button">.</div>
+          <div class="calc__button">0</div>
+          <div class="calc__button">/</div>
+          <div class="calc__button">x</div>
+          <div class="calc__button reset">RESET</div>
+          <div class="calc__button equal">=</div>
+        </div>
+      </div>
+    </div>
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        > Frontend Mentor</a
+      >. Coded by <a href="#"> Osvaldo Castillo</a>.
+    </footer>
+  </body>
+</html>
