@@ -43,7 +43,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://osvaldomcc.github.io/beautiful-calculator/)
+- Solution URL: [Live URL](https://osvaldomcc.github.io/beautiful-calculator/)
 
 ## My process
 
