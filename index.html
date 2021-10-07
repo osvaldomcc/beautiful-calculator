@@ -34,9 +34,13 @@
               </div>
               <div class="inputs">
                 <div class="calc__form--actions">
-                  <label for="one"></label>
-                  <label for="two"></label>
-                  <label for="three"></label>
+                  <label
+                    id="theme1"
+                    for="one"
+                    class="button-label active"
+                  ></label>
+                  <label id="theme2" for="two" class="button-label"></label>
+                  <label id="theme3" for="three" class="button-label"></label>
                 </div>
                 <input type="radio" id="one" name="theme" value="one" />
                 <input type="radio" id="two" name="theme" value="two" />
@@ -46,35 +50,36 @@
           </div>
         </div>
         <div class="calc__result">
-          <h2>399,981</h2>
+          <h2 id="result">0</h2>
         </div>
         <div class="calc__content">
-          <div class="calc__button">7</div>
-          <div class="calc__button">8</div>
-          <div class="calc__button">9</div>
-          <div class="calc__button del">DEL</div>
-          <div class="calc__button">4</div>
-          <div class="calc__button">5</div>
-          <div class="calc__button">6</div>
-          <div class="calc__button">+</div>
-          <div class="calc__button">1</div>
-          <div class="calc__button">2</div>
-          <div class="calc__button">3</div>
-          <div class="calc__button">-</div>
-          <div class="calc__button">.</div>
-          <div class="calc__button">0</div>
-          <div class="calc__button">/</div>
-          <div class="calc__button">x</div>
-          <div class="calc__button reset">RESET</div>
-          <div class="calc__button equal">=</div>
+          <button class="calc__button">7</button>
+          <button class="calc__button">8</button>
+          <button class="calc__button">9</button>
+          <button class="calc__button del">DEL</button>
+          <button class="calc__button">4</button>
+          <button class="calc__button">5</button>
+          <button class="calc__button">6</button>
+          <button class="calc__button">+</button>
+          <button class="calc__button">1</button>
+          <button class="calc__button">2</button>
+          <button class="calc__button">3</button>
+          <button class="calc__button">-</button>
+          <button class="calc__button">.</button>
+          <button class="calc__button">0</button>
+          <button class="calc__button">/</button>
+          <button class="calc__button">x</button>
+          <button class="calc__button reset">RESET</button>
+          <button class="calc__button equal">=</button>
         </div>
       </div>
+      <footer class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          > Frontend Mentor</a
+        >. Coded by <a href="#"> Osvaldo Castillo</a>.
+      </footer>
     </div>
-    <footer class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        > Frontend Mentor</a
-      >. Coded by <a href="#"> Osvaldo Castillo</a>.
-    </footer>
+    <script src="js/main.js"></script>
   </body>
 </html>
